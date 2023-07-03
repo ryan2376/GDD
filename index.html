@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growing Degree Days</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Growing Degree Days Calculator</h1>
+
+    <form id="gdd-form">
+      <label for="base-temp">Select Base Temperature:</label>
+      <select id="base-temp" name="base-temp">
+        <option value="50">50°F</option>
+        <option value="10">10°C</option>
+      </select>
+      <br><br>
+      <label for="avg-temp">Enter Average Daily Temperature:</label>
+      <input type="number" id="avg-temp" name="avg-temp">
+      <br><br>
+      <button type="button" onclick="calculateGDD()">Calculate GDD</button>
+    </form>
+  
+    <div id="result"></div>
+  
+    <script src="index.js"></script>
+</body>
+</html>
