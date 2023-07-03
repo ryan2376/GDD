@@ -24,7 +24,6 @@ body {
     font-weight: bold;
   }
   
-  select,
   input {
     width: 100%;
     padding: 8px;
@@ -48,7 +47,19 @@ body {
     background-color: #45a049;
   }
   
-  #result {
+  #gdd-table {
     margin-top: 20px;
-    font-weight: bold;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #gdd-table th,
+  #gdd-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #cccccc;
+  }
+  
+  #gdd-chart {
+    margin-top: 20px;
   }
